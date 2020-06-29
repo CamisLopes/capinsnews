@@ -1,0 +1,30 @@
+
+
+.banner{ margin: 0px;}
+
+.main_texto{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_texto h1{
+    color: darkblue;
+}
+
+.card_area > div{
+    margin-bottom: 10px;
+}
+
+.card_area img{
+    width: 100%;
+}
+
+.music img{
+    width: 100%;
+}
+.music h5{
+    font-size: small;
+}
+.music p{
+    font-size: smaller;
+}

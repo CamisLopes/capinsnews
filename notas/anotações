@@ -1,0 +1,15 @@
+<script>
+        /*ele é análogo ao window.onload(); portanto, na versão jQuery.
+          tudo o que eu desejo fazer com jQuery, que depende da página ser carregada, da biblioteca ser carregada, isto é, de tudo ter sido carregada, eu coloco dentro do ready   
+        */
+        $(document).ready(function(){
+            //aqui eu posso colocar qualquer conteúdo, no exemplo, o professor selecionou o link
+            $('a').click(function(evento){
+                alert('o link foi clicado')
+                /*para travar o comportamento padrão dos links:
+                  toda função jQuery, que é manipuladora de evento, recebe um objeto evento
+                */
+               evento.preventDefault();
+            })
+        });
+    </script>

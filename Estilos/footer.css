@@ -1,0 +1,30 @@
+.footer{
+    margin-top: 10px;
+    background-color: lightskyblue;
+    color:black;
+    padding: 10px;
+}
+
+.footer_area{
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.site_info{
+    margin-top: 10px;
+}
+
+.site_info h1{
+    font-size: 1.4em;
+}
+
+.grid_cor1{
+    padding: 10px;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.grid_cor1 img{
+    width: 80%;
+}
