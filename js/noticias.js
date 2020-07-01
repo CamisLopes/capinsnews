@@ -75,8 +75,8 @@ Funções: {
 
         
         let div1 = document.getElementsByClassName("destaque-carrosel-1");
-        let texto = "";
-        texto = `
+        let texto1 = "";
+        texto1 = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
             <div class="position-relative">
                 <!--thumbnail img-->
@@ -99,11 +99,11 @@ Funções: {
             </div>
         </div>
         `;
-        div1[i].innerHTML = texto; 
+        div1[i].innerHTML = texto1; 
         
         let div2 = document.getElementsByClassName("destaque-carrosel-2");
-        let texto = "";
-        texto = `
+        let texto2 = "";
+        texto2 = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
             <div class="position-relative">
                 <!--thumbnail img-->
@@ -126,11 +126,11 @@ Funções: {
             </div>
         </div>
         `;
-        div2[i].innerHTML = texto; 
+        div2[i].innerHTML = texto2; 
 
         let div3 = document.getElementsByClassName("destaque-carrosel-3");
-        let texto = "";
-        texto = `
+        let texto3 = "";
+        texto3 = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
             <div class="position-relative">
                 <!--thumbnail img-->
@@ -153,11 +153,11 @@ Funções: {
             </div>
         </div>
         `;
-        div3[i].innerHTML = texto; 
+        div3[i].innerHTML = texto3; 
 
         let div4 = document.getElementsByClassName("destaque-carrosel-4");
-        let texto = "";
-        texto = `
+        let texto4 = "";
+        texto4 = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
             <div class="position-relative">
                 <!--thumbnail img-->
@@ -180,12 +180,12 @@ Funções: {
             </div>
         </div>
         `;
-        div4[i].innerHTML = texto; 
+        div4[i].innerHTML = texto4; 
 
 
 
     let divTela = document.getElementById('destaque-Esquerda-2');
-    let texto = '';
+    let texto5 = '';
 
     // Montar texto HTML das noticias
     let dados = JSON.parse (this.responseText);
@@ -193,7 +193,7 @@ Funções: {
         let noticia = dados.articles[i];
         let data = new Date (noticia.publishedAt);
 
-        texto = texto + `
+        texto5 = texto5 + `
         <div class="card mb-3" style="max-width: 665px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
@@ -211,12 +211,12 @@ Funções: {
         `;
     }
     // Preencher a DIV com o texto HTML
-    divTela.innerHTML = texto;
+    divTela.innerHTML = texto5;
 
 
 
         let divTela1 = document.getElementById('noticia_Esquerda_4');
-        let texto = '';
+        let texto6 = '';
 
         // Montar texto HTML das noticias
         let dados = JSON.parse (this.responseText);
@@ -224,7 +224,7 @@ Funções: {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
 
-            texto = texto + `
+            texto6 = texto6 + `
             <div class="d-flex">
                 <div class="pl-2 pr-3">
                     <div class="card mb-3">
@@ -256,11 +256,11 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela1.innerHTML = texto;
+        divTela1.innerHTML = texto6;
 
 
         let divTela2 = document.getElementById('artistas');
-        let texto = '';
+        let texto7 = '';
 
         // Montar texto HTML das noticias
         let dados = JSON.parse (this.responseText);
@@ -268,7 +268,7 @@ Funções: {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
 
-            texto = texto + `
+            texto7 = texto7 + `
             <li class="media" style="max-width: 475px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
@@ -287,11 +287,11 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela2.innerHTML = texto;
+        divTela2.innerHTML = texto7;
     
 
         let divTela3 = document.getElementById('artistas');
-        let texto = '';
+        let texto8 = '';
 
         // Montar texto HTML das noticias
         let dados = JSON.parse (this.responseText);
@@ -299,7 +299,7 @@ Funções: {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
 
-            texto = texto + `
+            texto8 = texto8 + `
             <div class="col mb-4">
                 <div class="card w-100 h-100">
                 <img src="img_organized/logo.jpg" class="card-img-top" alt="...">
@@ -313,11 +313,11 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela3.innerHTML = texto;
+        divTela3.innerHTML = texto8;
 
 
         let divTela4 = document.getElementById('fontesartistas');
-        let texto = '';
+        let texto9 = '';
 
         // Montar texto HTML das noticias
         let dados = JSON.parse (this.responseText);
@@ -325,14 +325,14 @@ Funções: {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
 
-            texto = texto + `
+            texto9 = texto9 + `
             <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                 <img src="img_organized/cosmicreef.jpg" alt="a">
             </div> 
             `;
         }
         // Preencher a DIV com o texto HTML
-        divTela4.innerHTML = texto;
+        divTela4.innerHTML = texto9;
 
     }
 }
