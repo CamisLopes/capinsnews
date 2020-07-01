@@ -219,7 +219,7 @@ Funções: {
         let texto6 = '';
 
         // Montar texto HTML das noticias
-        let dados = JSON.parse (this.responseText);
+        let dados1 = JSON.parse (this.responseText);
         for (i=0; i< dados.articles.length; i++) {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
@@ -263,7 +263,7 @@ Funções: {
         let texto7 = '';
 
         // Montar texto HTML das noticias
-        let dados = JSON.parse (this.responseText);
+        let dados2 = JSON.parse (this.responseText);
         for (i=0; i< dados.articles.length; i++) {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
@@ -294,7 +294,7 @@ Funções: {
         let texto8 = '';
 
         // Montar texto HTML das noticias
-        let dados = JSON.parse (this.responseText);
+        let dados3 = JSON.parse (this.responseText);
         for (i=0; i< dados.articles.length; i++) {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
@@ -320,7 +320,7 @@ Funções: {
         let texto9 = '';
 
         // Montar texto HTML das noticias
-        let dados = JSON.parse (this.responseText);
+        let dados4 = JSON.parse (this.responseText);
         for (i=0; i< dados.articles.length; i++) {
             let noticia = dados.articles[i];
             let data = new Date (noticia.publishedAt);
