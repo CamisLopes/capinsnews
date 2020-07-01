@@ -1,3 +1,7 @@
+function noticiasCarrossel(){
+    let query = document.getElementById('')
+}
+document.getElementById
 /*Bloco_Onload: {
     onload = () => {
         let bars = document.getElementById("bars");

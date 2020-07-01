@@ -1,37 +1,31 @@
 .header{
     background: lightblue;
+}
+.header .menu_down{
     margin-bottom: 20px;
-    text-align: center;
-}
-
-.header_area{
-    padding: 20px;
-}
-
-.menu_up{
-    margin-top: 30px;
-}
-
-.menu_up nav a{
-    background-color: rgb(101, 255, 204);
-    color: dimgrey ;
 }
 
 
-.menu_up nav a:hover{
-    background-color:rgba(127, 255, 212, 0.527) ;
+.menu_down nav a{
+    color: rgb(73, 73, 73) ;
 }
 
-.active{
-    background-color: dodgerblue !important;
-    color: azure;
+
+.menu_down nav a:hover{
+    background-color:rgba(92, 156, 230, 0.5) ;
 }
 
+.menu_down nav a:focus{
+    background-color: #5c9ce6 !important;
+}
+.dropdown-menu {
+    background-color: rgb(191, 239, 255);
+}
 .logo{
-    max-width: 150px;
+    max-width: 120px;
 }
 
-.menu_up a{
+.menu_down a{
     color: black;
 }
 #menuToggle{
@@ -39,6 +33,14 @@
 }
 .menu-icon{
     display: none;
+}
+
+#registro{
+    width: max-content;
+    
+}
+#registro a{
+    color: rgb(73, 73, 73);
 }
 
 /* Media Queries*/

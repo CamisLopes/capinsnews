@@ -1,12 +1,10 @@
 .footer{
     margin-top: 10px;
-    background-color: lightskyblue;
+    background-color: lightblue;
     color:black;
-    padding: 10px;
 }
 
 .footer_area{
-    padding: 10px;
     text-align: center;
     font-family: monospace;
 }

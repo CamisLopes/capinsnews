@@ -1,6 +1,10 @@
+.conteudo{
+    width: max-content;
+}
 
-
-.banner{ margin: 0px;}
+.banner{ 
+    margin: 0px;
+}
 
 .main_texto{
     padding: 20px;
@@ -17,6 +21,11 @@
 
 .card_area img{
     width: 100%;
+}
+
+.placa{
+    font-size: larger;
+    background-image: linear-gradient( to right, #5c9ce6, #5ce1e6);
 }
 
 .music img{
