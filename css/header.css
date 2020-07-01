@@ -44,7 +44,11 @@
 }
 
 /* Media Queries*/
-
+@media screen and (max-widht:1000px){
+    #carrosel{
+        display: none;
+    }
+}
 /*@media screen and (max-width: 1000px) {
 
     .header{        
