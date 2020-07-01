@@ -74,7 +74,7 @@ Funções: {
         }
 
         
-        let div = document.getElementsByClassName("destaque-carrosel-1");
+        let div1 = document.getElementsByClassName("destaque-carrosel-1");
         let texto = "";
         texto = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
@@ -99,9 +99,9 @@ Funções: {
             </div>
         </div>
         `;
-        div[i].innerHTML = texto; 
+        div1[i].innerHTML = texto; 
         
-        let div = document.getElementsByClassName("destaque-carrosel-2");
+        let div2 = document.getElementsByClassName("destaque-carrosel-2");
         let texto = "";
         texto = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
@@ -126,9 +126,9 @@ Funções: {
             </div>
         </div>
         `;
-        div[i].innerHTML = texto; 
+        div2[i].innerHTML = texto; 
 
-        let div = document.getElementsByClassName("destaque-carrosel-3");
+        let div3 = document.getElementsByClassName("destaque-carrosel-3");
         let texto = "";
         texto = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
@@ -153,9 +153,9 @@ Funções: {
             </div>
         </div>
         `;
-        div[i].innerHTML = texto; 
+        div3[i].innerHTML = texto; 
 
-        let div = document.getElementsByClassName("destaque-carrosel-4");
+        let div4 = document.getElementsByClassName("destaque-carrosel-4");
         let texto = "";
         texto = `
         <div class="card border-0 rounded-0 text-white overflow zoom">
@@ -180,7 +180,7 @@ Funções: {
             </div>
         </div>
         `;
-        div[i].innerHTML = texto; 
+        div4[i].innerHTML = texto; 
 
 
 
@@ -215,7 +215,7 @@ Funções: {
 
 
 
-        let divTela = document.getElementById('noticia_Esquerda_4');
+        let divTela1 = document.getElementById('noticia_Esquerda_4');
         let texto = '';
 
         // Montar texto HTML das noticias
@@ -256,10 +256,10 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela.innerHTML = texto;
+        divTela1.innerHTML = texto;
 
 
-        let divTela = document.getElementById('artistas');
+        let divTela2 = document.getElementById('artistas');
         let texto = '';
 
         // Montar texto HTML das noticias
@@ -287,10 +287,10 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela.innerHTML = texto;
+        divTela2.innerHTML = texto;
     
 
-        let divTela = document.getElementById('artistas');
+        let divTela3 = document.getElementById('artistas');
         let texto = '';
 
         // Montar texto HTML das noticias
@@ -313,10 +313,10 @@ Funções: {
             
         }
         // Preencher a DIV com o texto HTML
-        divTela.innerHTML = texto;
+        divTela3.innerHTML = texto;
 
 
-        let divTela = document.getElementById('fontesartistas');
+        let divTela4 = document.getElementById('fontesartistas');
         let texto = '';
 
         // Montar texto HTML das noticias
@@ -332,7 +332,7 @@ Funções: {
             `;
         }
         // Preencher a DIV com o texto HTML
-        divTela.innerHTML = texto;
+        divTela4.innerHTML = texto;
 
     }
 }
